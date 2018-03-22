@@ -1,0 +1,137 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--
+        <div class="wrapper">
+            <nav class="menu-container">
+                <a class="burger-nav"></a>
+                <ul class="links">
+                        
+                    <li><a class="logo" href="index.html">Bilvården</a></li>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="">Invändig</a></li>
+                    <li><a href="">Utvändig</a></li>
+                    <li><a href="">Polering</a></li>
+                </ul>
+            </nav>
+        </div>
+    -->
+<!--
+    <div class="menu-overlay">
+        <div class="menu-plate">
+            <div class="menu-close">
+                <!-- SVG ICON X 
+            </div>
+            <ul class="menu">
+                <li><a href="index.html"></a>Hem</li>
+                <li><a href="index.html"></a>Invändig</li>
+                <li><a href="index.html"></a>Utvändig</li>
+                <li><a href="index.html"></a>Polering</li>
+            </ul>
+        </div>
+    </div>
+-->
+<!-- 
+<div class="menu-overlay">
+    <div class="plate">
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </span>
+            
+            <ul class="navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                </nav>
+            
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>        
+</div>      
+            <div id="main">
+              <h1>Responsive Side Menu</h1>
+            </div>
+
+
+        -->
+    <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+        document.getElementById('side-menu').style.width = '0px';
+        document.getElementById('main').style.marginLeft = '0px';
+    }
+
+    </script>
+
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Hem</a>
+        <a href="#" class="w3-bar-item w3-button">Invändig tvätt</a>
+        <a href="#" class="w3-bar-item w3-button">Utvändig tvätt</a>
+      </div>
+      
+      <!-- Page Content -->
+      <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+      
+      <div>
+        <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+        <div class="w3-container">
+          <h1>Sidebar Overlay</h1>
+          <p>The w3-overlay class can be used to create an overlay effect, when opening the sidebar. The w3-overlay class adds a black background with a 50% opacity to the "page content" - this effect will "highlight" the side navigation</p>
+          <p>Click on the "hamburger menu" to see the effect.</p>
+        </div>
+      </div>
+           
+      <script>
+      function w3_open() {
+          document.getElementById("mySidebar").style.display = "block";
+          document.getElementById("myOverlay").style.display = "block";
+      }
+      function w3_close() {
+          document.getElementById("mySidebar").style.display = "none";
+          document.getElementById("myOverlay").style.display = "none";
+      }
+      </script>
+                
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    </body>
+</html>
