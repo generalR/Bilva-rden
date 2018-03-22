@@ -47,12 +47,8 @@ li:nth-child(1) {
     font-size: 10px;
 }
 body{
-<<<<<<< HEAD
     background-color:blue;
     font-size: 1.6em;
-=======
-    background-color: red;
->>>>>>> d21be1ac83d109fae9573f6118bd00583674ab26
     line-height: 1.6;
     font-family: "Josefin Sans", "Roboto", sans-serif;
     color: #fff;
