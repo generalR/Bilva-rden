@@ -47,7 +47,6 @@ li:nth-child(1) {
     font-size: 10px;
 }
 body{
-    background-color:blue;
     font-size: 1.6em;
     line-height: 1.6;
     font-family: "Josefin Sans", "Roboto", sans-serif;
@@ -110,39 +109,67 @@ header li{
 }
 
 #section-a{
-   /*
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    
-    min-height: 800px;
-    z-index: -1;
-    */
-    /*background: url("../img/hero.jpeg");*/
-    background-color: #1E0D7A;
-    min-height: 100vh;
-    min-width: 100vw;
-   /* display: table; */
-    position: relative;
+    background: url("../img/hero.jpeg");
+
+    /*min-height: 100vh;
+    min-width: 100vw; */
+   /* position: relative; */
    /* padding: 7.14286rem 5.71429rem; */
-    z-index: -1;
+   /* z-index: 0;
     overflow: hidden;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 50% 50%;
-    
+    */
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-position: center;
+    margin-bottom: 50px;
+
+    position: relative;
+
+   /* display: flex;
+    flex-direction: column;
+   /* justify-content: center; 
+    align-items: center;
+    text-align: center;*/
+    outline: 1px solid black;
+            
 
 }
-#banner-text h2, p, a {
+#banner-text {
+    padding-top: 250px;
+    font-size: 3.92857rem;
+    /*
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: center;
     outline: 1px solid black;
     margin-top: 60px; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: 1px solid black;*/
 }
 
+#banner-text h2{
+    font-size: 110px;
+    margin: 0;
+    padding: 0;
+    outline: 1px solid #fff;
+}
+
+#banner-text p{
+    margin-top: -60px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0; 
+}
 #options{
 
     color: #333;
@@ -170,4 +197,3 @@ header li{
         
     }
 }
-*/
