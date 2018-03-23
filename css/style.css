@@ -63,8 +63,16 @@ body{
     width: 96%;
     max-width: 960px;
     margin: 0 auto;
-    padding: 0 2%;
+
     overflow: hidden;
+    outline: 1px solid crimson;
+}
+#logo{
+    font-size: 14px;
+}
+svg.svg-inline--fa.fa-ambulance.fa-w-20{
+    font-size: 25px;
+    margin-right: 5px;
 }
 header{
     padding-top: 10px;
@@ -110,7 +118,8 @@ header li{
 
 #section-a{
     background: url("../img/hero.jpeg");
-
+    background-color: #1E0D7A; 
+    background-blend-mode: hard-light;
     /*min-height: 100vh;
     min-width: 100vw; */
    /* position: relative; */
@@ -134,8 +143,11 @@ header li{
    /* justify-content: center; 
     align-items: center;
     text-align: center;*/
-    outline: 1px solid black;
+    
             
+
+}
+#section-a img{
 
 }
 #banner-text {
@@ -186,8 +198,14 @@ header li{
 }
 .fa-angle-down{
     color: #fff;
+    padding: 20px;
 }
-
+#hero-text blockquote{
+    color: #1E0D7A;
+    margin: 0;
+    padding: 0;
+    outline: 1px solid #1E0D7A; 
+}
 /*
 @media only screen and (min-width: 400px) {
     header ul{
