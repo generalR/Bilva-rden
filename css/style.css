@@ -16,11 +16,9 @@ body{
 
 .wrapper{
     width: 96%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
-
     overflow: hidden;
-   /* outline: 1px solid crimson; */
 }
 #logo{
     font-size: 14px;
@@ -33,10 +31,11 @@ header{
     padding-top: 10px;
     text-decoration: none;
     position: absolute;
-    color: #fff;
     width: 100%;
+    padding: 20px;
     z-index: 100;
     display: block;
+
 }
 header h1{
     float: left;
@@ -45,8 +44,8 @@ header h1{
     font-weight: bold;
 }
 header nav{
-   float: right;
-
+    float: right;
+    color: #fff;
 }
 header:after{
     display: block;
@@ -85,10 +84,12 @@ header li{
 
 }
 #banner-text {
-    padding-top: 3.5em;
+    padding-top: 4.9em;
     font-size: 3.92857rem;
     font-weight: 700;
     color: #fff;
+    outline: 1px solid salmon;
+    
 }
 
 #banner-text h2{
@@ -154,7 +155,7 @@ blockquote #text2{
 }
 #section-c li{
   text-align: center;
-  padding: 40px 35px 20px;
+  padding: 50px 50px 20px;
   background-color: #E8E9ED;
   border-right: 5px solid #fff;
 }
@@ -176,11 +177,39 @@ footer{
     padding: 10rem 0 7.14286rem 0;
 }
 footer ul{
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none;
+    justify-content: flex-start;
 }
+
+footer li{
+    list-style: none;
+    padding: 50px;
+
+}
+
+footer li p{
+    margin: 0;
+    line-height: 2;
+    font-weight: 300;
+}
+
+
+footer #copyright{
+    margin-top: 200px;
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
 
 
 
