@@ -65,7 +65,7 @@ body{
     margin: 0 auto;
 
     overflow: hidden;
-    outline: 1px solid crimson;
+   /* outline: 1px solid crimson; */
 }
 #logo{
     font-size: 14px;
@@ -164,7 +164,7 @@ header li{
 }
 
 #section-b{
-    margin: 0 auto;
+    margin: 100px 0 auto;
     text-align: center;
 }
 #section-b blockquote{
@@ -186,7 +186,9 @@ blockquote #text2{
     color:#C0C1CF;
 }
 
-
+#section-c {
+    margin-top: 100px;
+}
 #section-c ul{
     list-style-type: none;
     color: #1E0D7A;
@@ -194,15 +196,12 @@ blockquote #text2{
     padding: 0;
     display: flex;
     justify-content: center;
-    
-    
 }
 #section-c li{
   text-align: center;
   padding: 40px 35px 20px;
   background-color: #E8E9ED;
   border-right: 5px solid #fff;
- /* list-style-position: inside; */
 }
 #section-c li:last-child{
     border-right: none;
@@ -215,7 +214,18 @@ blockquote #text2{
     font-size: 40px;
 }
 
-
+footer{
+    color: #fff;
+    margin-top: 200px;
+    background-color: #1E0D7A;
+    padding: 10rem 0 7.14286rem 0;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
 
 
 
