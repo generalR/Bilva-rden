@@ -1,6 +1,10 @@
 :root{
     font-size: 10px;
 }
+ul{
+
+    padding: 0; 
+}
 body{
     font-size: 1.6em;
     line-height: 1.6;
@@ -28,8 +32,50 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
     font-size: 25px;
     margin-right: 5px;
 }
+
+#navbar{
+    text-transform: uppercase;
+}
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style-type: none;
+}
+#navbar a{
+    text-decoration: none;
+    color: #888;
+}
+
+#navbar a li.current, #navbar a:hover{
+    color: salmon;
+    border-bottom: 1px solid salmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 header{
-   /* padding-top: 10px;
+    padding-top: 10px;
     text-decoration: none;
     position: absolute;
     width: 100%;
@@ -72,6 +118,8 @@ header li{
     margin-top: 10px;
 }
 */
+
+/*
 #section-a{
     background: url("../img/hero.jpeg");
     background-color: #1E0D7A; 
@@ -191,14 +239,17 @@ blockquote #text2{
 #section-c .fa-arrow-right{
     font-size: 16px;
 }
+*/
+/*
 footer{
     color: #fff;
     margin-top: 75px;
-    background-color: salmon; /* #1E0D7A; */
+    background-color: salmon; /* #1E0D7A; 
     padding: 50px 50px 0px;
     margin-left: -7px;
-   
+   */
 }
+/*
 footer ul{
     padding: 0;
     margin: 0;
@@ -228,8 +279,7 @@ footer #copyright{
 
 
 
-/* Invandig tvätt */
-
+ */
 
 
 
@@ -241,6 +291,9 @@ footer #copyright{
 
 @media only screen and (min-width: 400px) {
     body{
-        background-color: salmon;
+        background-color: #F2F5F9; /*#E6ECF2;*/
+    }
+    header{
+        background-color: #E6ECF2;
     }
 }
