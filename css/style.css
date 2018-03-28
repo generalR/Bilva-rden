@@ -5,7 +5,7 @@ body{
     font-size: 1.6em;
     line-height: 1.6;
     font-family: "Josefin Sans", "Roboto", sans-serif;
-    color: #fff;
+
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
@@ -28,15 +28,16 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
     margin-right: 5px;
 }
 header{
-    padding-top: 10px;
+   /* padding-top: 10px;
     text-decoration: none;
     position: absolute;
     width: 100%;
     padding: 20px;
     z-index: 100;
     display: block;
-
+*/
 }
+/*
 header h1{
     float: left;
     margin: 0;
@@ -69,7 +70,7 @@ header li{
     margin-left: 20px;
     margin-top: 10px;
 }
-
+*/
 #section-a{
     background: url("../img/hero.jpeg");
     background-color: #1E0D7A; 
@@ -204,6 +205,8 @@ footer #copyright{
 
 
 
+
+/* Invandig tvätt */
 
 
 
