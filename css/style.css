@@ -23,7 +23,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-    outline: 1px solid black;
+    outline: 1px solid salmon;
 }
 #logo{
     font-size: 14px;
@@ -35,6 +35,7 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
 
 #navbar{
     text-transform: uppercase;
+    
 }
 #navbar li{
     display: inline;
@@ -43,32 +44,54 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
 }
 #navbar a{
     text-decoration: none;
-    color: #888;
+    color: #fff;
 }
 
 #navbar a li.current, #navbar a:hover{
     color: salmon;
     border-bottom: 1px solid salmon;
 }
+#main-header{
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    outline: 1px solid salmon;
+
+}
+
+/* SHOWCASE*/
+#showcase{
+    background: url('../img/hero.jpeg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    background-color: #1E0D7A; 
+    background-blend-mode: hard-light;
+    height: 100vh;
+
+/*
+    background: url("../img/hero.jpeg");
+    background-color: #1E0D7A; 
+    background-blend-mode: hard-light;
+
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-position: center;
+    margin-bottom: 50px;
+    position: relative;
+    */
 
 
 
+}
 
+#showcase .row{
+    padding-top: 4.9em;
+    font-size: 3.92857rem;
+    font-weight: 700;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
