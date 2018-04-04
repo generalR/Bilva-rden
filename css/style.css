@@ -5,17 +5,24 @@ ul{
 
     padding: 0; 
 }
+p{
+    color: #3b4348;
+}
+a{
+    color: #235ea7;
+}
 body{
     font-size: 1.6em;
     line-height: 1.6;
     font-family: "Josefin Sans", "Roboto", sans-serif;
-
+    background-color: #ECECEC;
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     position: relative;
     overflow-x: hidden;
+
 }
 
 .wrapper{
@@ -27,7 +34,7 @@ body{
 }
 #logo{
     font-size: 14px;
-    color: #fff;
+    color: #3b4348;
 }
 svg.svg-inline--fa.fa-ambulance.fa-w-20{
     font-size: 25px;
@@ -40,11 +47,12 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
     padding-right: 20px;
     list-style-type: none;
     z-index: 100;
+    font-weight: 700;
 }
 #navbar a{
     text-decoration: none;
-    color: #fff;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #3b4348;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
 #navbar a li.current, #navbar a:hover{
@@ -53,10 +61,11 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
 }
 #main-header{
     text-decoration: none;
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     z-index: 100;
     padding-top: 15px;
+   /* box-shadow: 0 0.125rem 0.3125rem rgba(253, 218, 20, 0.26); */
 }
 
    
@@ -74,6 +83,9 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
 #showcase .row{
    margin-top: 200px;
    
+}
+#showcase p{
+    color: #fff;
 }
 #showcase h1{
     font-size: 12rem;
@@ -93,7 +105,7 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
     color: #fff;
  }
 
-#showcase #info-text{
+#showcase #info-text p{
     position: absolute;
     right: 4rem;
     bottom: 100px;
@@ -106,14 +118,15 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
 
 /*SELLING TEXT*/
 #selling-text blockquote{
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 200px;
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
     line-height: 1.2;
 }
 #selling-text #redText{
     color: #1E0D7A;
+   
 }
 blockquote #text2{
     color:#C0C1CF;
@@ -134,6 +147,7 @@ blockquote #text2{
     display: flex;
     color:#fff;
 }
+
 #features ul{
     list-style-type: none;
     display: flex;
@@ -142,23 +156,29 @@ blockquote #text2{
 
 #features li{
     padding: 50px 50px;
-    background-color: #1E0D7A; 
+    background-color: #fff; 
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
     border-right: 5px solid #fff;
+    color: pink;
     
     flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+#features li:hover {
+    z-index: 2;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12), 0px 8px 8px 0px rgba(0,0,0,0.24);
+}
 #features li > *{
     flex: 1;
     flex-basis: 100%;
+    color: #1E0D7A;
 }
 
 #features .fa-arrow-right{
     align-self: flex-end;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 #features svg{
@@ -253,10 +273,9 @@ footer #copyright{
 
 
 
-/*INVÄNDIGTVÄTT*/
+/*INVÄNDIGTVÄT.html*/
 #tag{
-    padding-top: 200px;
-    background-color: plum;
+    
 }
 
 
