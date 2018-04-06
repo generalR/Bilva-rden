@@ -66,6 +66,7 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
     z-index: 100;
     padding-top: 15px;
    /* box-shadow: 0 0.125rem 0.3125rem rgba(253, 218, 20, 0.26); */
+    background-color: #F8F8FF;
 }
 
    
@@ -234,9 +235,8 @@ blockquote #text2{
 */
 
 footer{
-    color: rgb(124, 128, 129);
     margin-top: 75px;
-    background-color: #E6ECF2;
+    background-color: #fff; /*#000042;*/ /*#FBEEAA; #E6ECF2;*/
     padding: 50px 50px 0px;
     margin-left: -7px;
     margin-top: 100px;
@@ -253,9 +253,10 @@ footer li{
     list-style: none;
     padding: 50px 0;
     margin-right: 20px;
-
 }
-
+footer li > *{
+    color: #3b4348;
+}
 footer li p{
     margin: 0;
     line-height: 2;
@@ -268,15 +269,58 @@ footer #copyright{
     font-size: 12px;
     text-align: center;
     opacity: 0.7;
+    color: #3b4348;
 }
 
+/*INVÄNDIGTVÄT*/
 
-
-
-/*INVÄNDIGTVÄT.html*/
-#tag{
-    
+#bakgrundstext{
+    background-color: #e8e9ed;
 }
+.card{
+    background-color: #F8F8FF;
+    padding: 20px;
+    /*
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
+
+    margin-bottom: 5px;
+    position: relative;
+}
+.card-integer{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.card p{
+    font-size: 16px;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+}
+.card h2{
+    padding: 0;
+    margin: 0;
+}
+.card a{
+    -webkit-text-decoration-color: #e3d89d; /* Safari */    
+    text-decoration-color: ;
+
+    text-decoration: none;
+    border-bottom: 3px solid #e3d89d;
+}
+
+/* fd0af */
+
+
+/*UTVÄNDIGTVÄT*/
+/*Polering*/
 
 
 /*
