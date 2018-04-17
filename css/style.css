@@ -133,6 +133,26 @@ blockquote #text2{
 #features{
     margin-bottom: 200px;
 }
+.utv li{
+    background: url('../img/polering.jpg') no-repeat center center;
+    background-size: cover;
+}
+.pol li{
+    background: url('../img/carheaven.jpg') no-repeat center center;
+    background-size: cover;
+}
+.inv li{
+    background: url('../img/interior.jpg') no-repeat center center;
+    background-size: cover;
+}
+#features ul{
+    display: flex;
+    position: relative;
+}
+in.utv.pol{
+    flex-direction: center;
+}
+/*
 #features p{
     margin: 0;
     padding: 0;
@@ -149,10 +169,12 @@ blockquote #text2{
     list-style-type: none;
     display: flex;
     flex: 1;
+    flex-direction: column;
 }
+*/
 
 #features li{
-    padding: 50px 50px;
+  /*  padding: 50px 50px;
     background-color: #fff; 
     box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
     border-radius: 6px;
@@ -160,73 +182,51 @@ blockquote #text2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: 400px;
+    */
+    flex: 1;
+    height: 400px;
+    flex-basis: 100%;
+    font-size: 20px;
 }
 #features li:hover {
     z-index: 2;
     box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12), 0px 8px 8px 0px rgba(0,0,0,0.24);
 }
 #features li > *{
-    flex: 1;
+ /*  flex: 1;
     flex-basis: 100%;
-    color: #1E0D7A;
-}
+    color: #fff; 
+    */
 
+    color: #fff;
+}
+#features li p, h2{
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
+#features li h2{
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+}
 #features .fa-arrow-right{
+    position: absolute;
+    
+    right: 0;
+    bottom: 0;
     align-self: flex-end;
     font-size: 20px;
 }
 
 #features svg{
+
     margin-bottom: 5px;
-
     font-size: 40px;
-}
-
-/*
-#section-c p{
-    margin: 0;
-    padding: 0;
-    margin-bottom: 50px;
-}
-#section-c h2{
-    margin: 0;
-    padding: 0;
 
 }
-#section-c ul{
-    list-style-type: none;
-    color: #1E0D7A;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-#section-c li{
-  text-align: center;
-  padding: 50px 50px 20px;
-  background-color: #E8E9ED;
-  border-right: 5px solid #fff;
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  justify-content: center;
-}
-#section > *{
-    flex: 1;
-    flex-basis: 100%;
-}
-#section-c li:last-child{
-    border-right: none;
-}
-#section-c li svg{
-    margin-bottom: 5px;
-    width: 100%;
-    font-size: 40px;
-}
-#section-c .fa-arrow-right{
-    font-size: 16px;
-}
-*/
+
 
 footer{
     margin-top: 75px;
@@ -406,15 +406,53 @@ footer #copyright{
 
 /*UTVÄNDIGTVÄT*/
 /*Polering*/
+.burger-nav{
+    display: none ;
+}
+@media screen and (max-width: 770px) {
+    .wrapper{
+        overflow: hidden;
+        position: relative;
+        display: block;
+        color: #fff;
+    }
+    .burger-nav{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+    #navbar li{
+        display: block;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    header nav ul{
+        overflow: hidden;
+        /* height: 0; */
+        display: none;
+    }
+    header nav ul.open{
+        height: auto;
+        display: block;
+    }
+    #navbar ul li a{
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
 
 
 /*
 
 @media only screen and (min-width: 400px) {
     body{
-        background-color: #F2F5F9; /*#E6ECF2;
+        background-color: #F2F5F9; /*#E6ECF2; */
     }
-    header{
+ /*   header{
         background-color: #E6ECF2;
     }
 }
