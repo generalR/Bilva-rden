@@ -133,15 +133,15 @@ blockquote #text2{
 #features{
     margin-bottom: 200px;
 }
-.utv li{
+.utv ul{
     background: url('../img/polering.jpg') no-repeat center center;
     background-size: cover;
 }
-.pol li{
+.pol ul{
     background: url('../img/carheaven.jpg') no-repeat center center;
     background-size: cover;
 }
-.inv li{
+.inv ul{
     background: url('../img/interior.jpg') no-repeat center center;
     background-size: cover;
 }
@@ -151,6 +151,11 @@ blockquote #text2{
 }
 in.utv.pol{
     flex-direction: center;
+}
+#features h1{
+    font-size: 40px;
+    color: #3b4348;
+    margin: 0;
 }
 /*
 #features p{
@@ -184,10 +189,24 @@ in.utv.pol{
     justify-content: center;
     height: 400px;
     */
-    flex: 1;
+   
+    flex: 1; 
     height: 400px;
-    flex-basis: 100%;
+   /* flex-basis: 100%; */
     font-size: 20px;
+    display: flex;
+    overflow: hidden;
+}
+.text-to-bottom{
+    align-self: flex-end;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    box-shadow: 0px -10px 10px 10px rgba(0,0,0,0.3);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+    width: 100%;
+    flex: 1;
 }
 #features li:hover {
     z-index: 2;
@@ -201,23 +220,26 @@ in.utv.pol{
 
     color: #fff;
 }
-#features li p, h2{
-    position: absolute;
-    left: 10px;
-    bottom: 30px;
+#features li p{
+    /* position: absolute; */
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    line-height: 1.4;
+    font-size: 16px;
+    
 }
-#features li h2{
-    position: absolute;
-    left: 10px;
-    bottom: 50px;
+#features .tag{
+    margin-bottom: -10px;    
+    padding: 0;
 }
 #features .fa-arrow-right{
     position: absolute;
     
-    right: 0;
-    bottom: 0;
+    right: 10px;
+    bottom: 5px;
     align-self: flex-end;
-    font-size: 20px;
+    font-size: 20px; 
 }
 
 #features svg{
@@ -401,14 +423,12 @@ footer #copyright{
     list-style-type: none;
 }
 
-/* fd0af */
-
-
-/*UTVÄNDIGTVÄT*/
-/*Polering*/
 .burger-nav{
     display: none ;
 }
+
+
+
 @media screen and (max-width: 770px) {
     .wrapper{
         overflow: hidden;
@@ -421,6 +441,13 @@ footer #copyright{
         position: absolute;
         top: 10px;
         right: 5px;
+    }
+    #selling-text blockquote{
+
+    
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1.2;
     }
 
     #navbar li{
@@ -444,16 +471,4 @@ footer #copyright{
         padding-bottom: 20px;
         margin: 0;
     }
-
-
-/*
-
-@media only screen and (min-width: 400px) {
-    body{
-        background-color: #F2F5F9; /*#E6ECF2; */
-    }
- /*   header{
-        background-color: #E6ECF2;
-    }
 }
-*/
