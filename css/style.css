@@ -434,7 +434,6 @@ footer #copyright{
         overflow: hidden;
         position: relative;
         display: block;
-        color: #fff;
     }
     .burger-nav{
         display: block;
@@ -443,8 +442,6 @@ footer #copyright{
         right: 5px;
     }
     #selling-text blockquote{
-
-    
         font-size: 60px;
         font-weight: 700;
         line-height: 1.2;
