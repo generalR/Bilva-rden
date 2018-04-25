@@ -91,7 +91,7 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
     font-size: 12rem;
     margin: 0;
     margin-left: -10px;
-    padding: 200px 0 0 0;
+    padding: 150px 0 0 0;
  }
  #showcase #showcase-tag p{ 
     margin-top: -60px;
@@ -156,7 +156,6 @@ in.utv.pol{
     flex-direction: center;
 }
 #features h1{
-    font-size: 40px;
     color: #3b4348;
     margin: 0;
 }
@@ -210,6 +209,7 @@ in.utv.pol{
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
     width: 100%;
     flex: 1;
+    
 }
 #features li:hover {
     z-index: 2;
@@ -224,22 +224,24 @@ in.utv.pol{
     color: #fff;
 }
 #features li p{
-    /* position: absolute; */
+    position: relative;
     margin: 0;
     padding: 0;
     color: #fff;
     line-height: 1.4;
-    font-size: 16px;
-    
+    font-size: 16px; 
 }
 #features .tag{
     margin-bottom: -10px;    
     padding: 0;
 }
+.text-to-bottom p{
+    position: relative;
+}
 #features .fa-arrow-right{
     position: absolute;
-    right: 10px;
-    bottom: 5px;
+    left: 10px;
+    bottom: opx;
     align-self: flex-end;
     font-size: 20px; 
 }
@@ -253,12 +255,11 @@ in.utv.pol{
 
 
 footer{
-    margin-top: 75px;
     background-color: #E5E6EA; /*#000042;*/ /*#FBEEAA; #E6ECF2;*/
  /*   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
     padding: 50px 50px 0px;
     margin-left: -7px;
-    margin-top: 100px;
+
 } 
 
 footer ul{
@@ -783,5 +784,65 @@ label:first-child{
         padding-top: 20px;
         padding-bottom: 20px;
         margin: 0;
+    }
+    #selling-text blockquote{
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 175px;
+        padding-bottom: 100px;
+    }
+    #features li p{
+        /*position: relative; 
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        line-height: 1.4;
+        font-size: 16px; */
+        
+    }
+    #showcase h1{
+        font-size: 9rem;
+        margin: 0;
+        margin-left: -10px;
+        padding: 150px 0 20px 0;
+     }
+   
+     #showcase #info-text p{
+        background-color: #fff;
+        padding: 20px;
+        
+        color: #3b4348;
+       /* position: static; */
+        bottom: -90px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 70%; /* Need a specific value to work */
+
+        border-radius: 6px; 
+    }
+
+}
+@media screen and (max-width: 600px) {
+    #selling-text blockquote{
+        font-size: 50px;
+    }
+       
+    #showcase #info-text p{
+        background-color: #fff;
+        padding: 20px;
+        
+        color: #3b4348;
+       /* position: static; */
+        bottom: -140px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 70%; /* Need a specific value to work */
+
+        border-radius: 6px; 
     }
 }
