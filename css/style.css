@@ -505,8 +505,11 @@ fieldset.section.is-active {
     width: 50%;
     
 }
+.steps{
+    padding-top: 50px;
+}
 .form-wrapper .section{
-    padding: 0px 20px 30px 20px;
+    padding: 50px 20px 30px 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
