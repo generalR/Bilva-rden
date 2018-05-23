@@ -78,7 +78,7 @@ svg.svg-inline--fa.fa-ambulance.fa-w-20{
     background: url('../img/hero.jpeg') no-repeat center center;
     background-size: cover;
     color: #fff;
-    background-color: #1E0D7A; 
+    background-color: #1E0D7A;  /* #878D93 Grå */
     background-blend-mode: hard-light;
     height: 100vh;
     position: relative;
